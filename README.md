@@ -14,4 +14,4 @@ Translation [English to Greek] was developed with IBM Language Translator and im
 # Useful Links
 * https://github.com/L4Limbo/BOOST_HACKATHON_2020_Chatbot_Demo
 * https://nodered.org/docs/
-* https://cloud.ibm.com/docs
+* https://cloud.ibm.com/docs/
