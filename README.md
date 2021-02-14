@@ -7,3 +7,11 @@ A chatbot demo for tourist events created by IBM Watson Assistant for BOOST Hack
 
 # Translation & Messenger Connection
 Translation [English to Greek] was developed with IBM Language Translator and implemented with Node-Red. The nodes used appear in https://github.com/L4Limbo/BOOST_HACKATHON_2020_Chatbot_Demo/blob/main/gr_translation_messenger%5BNODE_RED%5D.jpg .
+
+# Contact
+* anestis2799@gmail.com
+
+# Useful Links
+* https://github.com/L4Limbo/BOOST_HACKATHON_2020_Chatbot_Demo
+* https://nodered.org/docs/
+* https://cloud.ibm.com/docs
