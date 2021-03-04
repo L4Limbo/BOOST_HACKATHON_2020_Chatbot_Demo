@@ -1,0 +1,3323 @@
+{
+  "intents": [
+    {
+      "intent": "r_adriatic_info",
+      "examples": [
+        {
+          "text": "Adriatic, what?"
+        },
+        {
+          "text": "Can you explain Adriatic"
+        },
+        {
+          "text": "Can you please explain the meaning of Adriatic?"
+        },
+        {
+          "text": "I do not understand what is Adriatic"
+        },
+        {
+          "text": "What does Adriatic mean?"
+        },
+        {
+          "text": "What is Adriatic?"
+        },
+        {
+          "text": "What is Adriatic region?"
+        }
+      ],
+      "description": "The user does not understand the meaning of Adriatic region"
+    },
+    {
+      "intent": "r_Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "r_event_info",
+      "examples": [
+        {
+          "text": "Can you give me a description of this event?",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                38,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can you tell me more about this event?",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                32,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "info about Focara di Sant Antonio abate",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                11,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "info about Sweet Istria",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "More information about event please!",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                23,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Please elaborate on this event",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                25,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tell me more about Istrski martin"
+        },
+        {
+          "text": "Tell me more about this",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                19,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What can I do there?"
+        },
+        {
+          "text": "What is event?",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is this event supposed to be?",
+          "mentions": [
+            {
+              "entity": "events",
+              "location": [
+                8,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Info asked about events (specific service that could be done for landmarks and members too)"
+    },
+    {
+      "intent": "r_events",
+      "examples": [
+        {
+          "text": "events are good"
+        },
+        {
+          "text": "events is a good choice"
+        },
+        {
+          "text": "events please"
+        },
+        {
+          "text": "i love event category"
+        },
+        {
+          "text": "i want to go to some events"
+        }
+      ],
+      "description": "Event category chosen"
+    },
+    {
+      "intent": "r_general_ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "r_greetings",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": "Ways to say hi"
+    },
+    {
+      "intent": "r_hotel_booking",
+      "examples": [
+        {
+          "text": "any hotels or hostels nearby"
+        },
+        {
+          "text": "can i stay there"
+        },
+        {
+          "text": "Can you book me a hotel in this event?"
+        },
+        {
+          "text": "where can i sleep"
+        },
+        {
+          "text": "Where can I stay near my destination?"
+        }
+      ],
+      "description": "Ask for hotel booking (specific action)"
+    },
+    {
+      "intent": "r_jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke"
+    },
+    {
+      "intent": "r_negative_response",
+      "examples": [
+        {
+          "text": "i don't like that"
+        },
+        {
+          "text": "i don't want it"
+        },
+        {
+          "text": "neither"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        }
+      ],
+      "description": "Possible negative responses"
+    },
+    {
+      "intent": "r_positive_response",
+      "examples": [
+        {
+          "text": "i like that"
+        },
+        {
+          "text": "i love that"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "that's true"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes, it is"
+        }
+      ],
+      "description": "Possible positive Responses"
+    },
+    {
+      "intent": "r_qna_bot_info",
+      "examples": [
+        {
+          "text": "Are you a chatbot?"
+        },
+        {
+          "text": "Are you a human?"
+        },
+        {
+          "text": "Are you alive?"
+        },
+        {
+          "text": "Can you explain to me who are you"
+        },
+        {
+          "text": "Please tell me more about yourself"
+        },
+        {
+          "text": "What are your services?"
+        },
+        {
+          "text": "What are you supposed to be?"
+        },
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "What kind of program is this?"
+        },
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "description": "Info about the chatbot"
+    },
+    {
+      "intent": "r_qna_service_info",
+      "examples": [
+        {
+          "text": "Do you have data on events?"
+        },
+        {
+          "text": "Do your services include events?"
+        },
+        {
+          "text": "How many events do you have?"
+        },
+        {
+          "text": "How many events in your database?"
+        },
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "What can you help me with?"
+        },
+        {
+          "text": "What can you tell me ?"
+        },
+        {
+          "text": "What do you know?"
+        },
+        {
+          "text": "What kind of information do you have?"
+        },
+        {
+          "text": "What services do you provide?"
+        }
+      ],
+      "description": "Services provided by the chatbot."
+    },
+    {
+      "intent": "r_recommendation",
+      "examples": [
+        {
+          "text": "any suggestions for events"
+        },
+        {
+          "text": "any suggestions for italy"
+        },
+        {
+          "text": "any suggestions with accessibility"
+        },
+        {
+          "text": "Are there any events during month?",
+          "mentions": [
+            {
+              "entity": "months",
+              "location": [
+                28,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Are there any events in country?",
+          "mentions": [
+            {
+              "entity": "countries",
+              "location": [
+                24,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "can you suggest me a destination"
+        },
+        {
+          "text": "Do you have any recommendations about category?",
+          "mentions": [
+            {
+              "entity": "categories",
+              "location": [
+                38,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Do you have any recommendations for trips in country",
+          "mentions": [
+            {
+              "entity": "countries",
+              "location": [
+                45,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want to go on a trip"
+        },
+        {
+          "text": "i want to travel for events"
+        },
+        {
+          "text": "Recommendations for category?",
+          "mentions": [
+            {
+              "entity": "categories",
+              "location": [
+                20,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Recommendations for country",
+          "mentions": [
+            {
+              "entity": "countries",
+              "location": [
+                20,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Recommendations for month",
+          "mentions": [
+            {
+              "entity": "months",
+              "location": [
+                20,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "recommend diet enviroment september greece"
+        },
+        {
+          "text": "what is the best option for landmark sightseeing"
+        },
+        {
+          "text": "Where can I go in country?",
+          "mentions": [
+            {
+              "entity": "countries",
+              "location": [
+                18,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Ways to ask for suggestions"
+    },
+    {
+      "intent": "r_supported_countries",
+      "examples": [
+        {
+          "text": "How many countries do you have information on?"
+        },
+        {
+          "text": "In what regions are those events taking place?"
+        },
+        {
+          "text": "What countries are supported?"
+        },
+        {
+          "text": "What regions do you support?"
+        },
+        {
+          "text": "Which countries do you have data on?"
+        },
+        {
+          "text": "Which countrie's events have you collected?"
+        },
+        {
+          "text": "Which of the adriatic countries can you recommend?"
+        }
+      ],
+      "description": "Supported countries"
+    },
+    {
+      "intent": "r_thanking",
+      "examples": [
+        {
+          "text": "Appreciate it"
+        },
+        {
+          "text": "I am greatful"
+        },
+        {
+          "text": "Many thanks"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thanks a lot"
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": "When the user thanks the chatbot"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "categories",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "accessibility",
+          "synonyms": [
+            "accessability"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "any category",
+          "synonyms": [
+            "anything",
+            "I do not care",
+            "I don't care",
+            "No specifics",
+            "whatever"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "category",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cultural",
+          "synonyms": [
+            "anthropological",
+            "artistic",
+            "culture",
+            "heritage",
+            "historical",
+            "linguistic",
+            "multicultural",
+            "religious",
+            "societal",
+            "sociocultural"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "diet",
+          "synonyms": [
+            "cuisine",
+            "dietary",
+            "eating",
+            "foods",
+            "nutritional",
+            "weightloss"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "environment",
+          "synonyms": [
+            "atmosphere",
+            "climate",
+            "eco",
+            "ecological",
+            "enviromental",
+            "environments",
+            "landscape"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "generally",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "countries",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anywhere",
+          "synonyms": [
+            "anything",
+            "whatever"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Argetina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Australia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Austria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belgium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brazil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Canada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chile",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "China",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Colombia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "country",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Croatia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Czechia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Denmark",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dominican Republic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ecuador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "France",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Germany",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Greece",
+          "synonyms": [
+            "Hellas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "India",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Indonesia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Iran",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ireland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Israel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Italy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Japan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luxemburg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Malaysia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mexico",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Montenegro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Netherlands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Norway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pakistan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Panama",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peru",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Philippines",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Poland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portugal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Qatar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Romania",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Russia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Saudi Arabia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Serbia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "S. Korea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Slovenia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "South Africa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweden",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Switzerland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thailand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Turkey",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "UAE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "UK",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "world",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "events",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Artichoke Fest – Strunjan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bertha che filava",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boumpousaria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brindisi - Corfu International Regatta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Candele a Candelara",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carnival of Xanthi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cavalcade of Saint'Oronzo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Croatia Open Umag",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dimitris Dafnona - Nestos Festivals Our Festival.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dimokriteia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Este in fiore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "event",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ex Tempore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FESTA DELLA GIUGGIOLA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Festa dell'olio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Festa di San Valentino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FESTA SANTISSIMA TRINITA'",
+          "synonyms": [
+            "FESTA SANTISSIMA TRINITA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Festival of Wine and Bleak",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Focara di Sant Antonio abate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Focara di Sant'Antonio abate",
+          "synonyms": [
+            "Focara di Sant Antonio abate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Golden Lion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "International ham fair",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Istra Inspirit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Istrski maraton - Istrian Marathon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Itria Valley Festival - Martina Franca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Libando",
+          "synonyms": [
+            "travel by eating"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Magic Castle Gradara",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maslinijada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Motovun Film Festival",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Notte dei Desideri",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Old Town Holidays",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olive",
+          "synonyms": [
+            "\"Olive, Wine and Fish Festival\"",
+            "Olive, Wine and Fish Festival",
+            "Wine and Fish festival"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Orange Wine Festival  Izola",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Palio di Monselice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Persimmon Fruit Feast – Strunjan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Refuscus mundi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sajam suvenira",
+          "synonyms": [
+            "rukotvorina i zdrave hrane"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SUSRETI POLJOPRIVREDNIKA",
+          "synonyms": [
+            "VINOGRADARA",
+            "VOCARA I PCELARA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweet Istria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Table of San Giuseppe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Best from Montenegro- fair",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "this",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "this event",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Traditional Carp Day event",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ulysses Theatre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wine and Garlic Feast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "XANTHI - CITY OF DREAMS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Youth Festivals",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "months",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anytime",
+          "synonyms": [
+            "any month"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "April",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "August",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "December",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "February",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "January",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "July",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "June",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "March",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "May",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "November",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "October",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "September",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "I am not able to understand you. If you find this kind of communication not suitable for you please visit: http://www.qnest.eu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1590916818706",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1614765763378",
+      "context": {
+        "country": "@countries"
+      },
+      "conditions": "@countries",
+      "event_name": "input",
+      "dialog_node": "handler_10_1614765763420"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_6_1614636923700",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1614804320883"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1614683455717",
+      "context": {
+        "country": "@countries"
+      },
+      "conditions": "@countries",
+      "event_name": "input",
+      "dialog_node": "handler_2_1614683455718"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1614806231438",
+      "context": {
+        "month": "@months"
+      },
+      "conditions": "@months",
+      "event_name": "input",
+      "dialog_node": "handler_5_1614806231439"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1614765763378",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1614765763421",
+      "previous_sibling": "handler_10_1614765763420"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please choose a category (diet, cultural, environment, accessibility)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1614806093884",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1614806093884",
+      "previous_sibling": "handler_8_1614806093884"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1614806231438",
+      "context": {
+        "month": "$months"
+      },
+      "conditions": "#r_negative_response",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1614806276952",
+      "previous_sibling": "handler_8_1614806231439"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1614806093884",
+      "context": {
+        "category": "@categories.values"
+      },
+      "conditions": "@categories.values",
+      "event_name": "input",
+      "dialog_node": "handler_8_1614806093884"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, no problem."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1614806093884",
+      "context": {
+        "category": [
+          "cultural",
+          "diet",
+          "environment",
+          "accessibility"
+        ]
+      },
+      "conditions": "#r_negative_response",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1614806158328",
+      "previous_sibling": "handler_6_1614806093884"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "When would you like to travel. Please write one or more months"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1614806231438",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1614806231439",
+      "previous_sibling": "handler_5_1614806231439"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Where would you like to travel (Greece, Italy, Montenegro, Slovenia)?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1614683455717",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1614683455718",
+      "previous_sibling": "handler_2_1614683455718"
+    },
+    {
+      "type": "standard",
+      "title": "General_Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a nice trip! If you need help about something else just say \"Hi\""
+              },
+              {
+                "text": "Goodbye!"
+              },
+              {
+                "text": "Farewell!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1590833102277",
+      "conditions": "#r_general_ending",
+      "dialog_node": "node_10_1590834116886"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, my name is Andrea and I am here to help you navigate through the various events in the Adriatic region. How can I help you? "
+              },
+              {
+                "text": "Greetings, my name is Andrea and I am here to help you navigate through the various events in the Adriatic region. How can I help you? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1590833102277",
+      "conditions": "#r_greetings",
+      "dialog_node": "node_10_1590834510907",
+      "previous_sibling": "node_8_1590834227112"
+    },
+    {
+      "type": "standard",
+      "title": "Bot_Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Anrdea and I am a chatbot. I like to help travelers with events that take place in Adriatic area."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590833102277",
+      "conditions": "#r_qna_bot_info || #r_qna_service_info",
+      "dialog_node": "node_10_1614636167260",
+      "previous_sibling": "node_10_1590834510907"
+    },
+    {
+      "type": "standard",
+      "title": "Event_check",
+      "parent": "node_7_1614639888249",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1614640536399"
+    },
+    {
+      "type": "standard",
+      "title": "For Results-Show",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For category <? $chosen_categories[$number_categories] ?> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "size": "<? $events.get($countries.indexOf($country))[$number_categories.toInt()].size() ?>",
+        "result": " ",
+        "res_size": "<? $events.get($countries.indexOf($country))[$number_categories.toInt()][0].size()?>",
+        "result_counter": 0
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1614840344887"
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1614808098438",
+      "previous_sibling": "node_6_1614683568451"
+    },
+    {
+      "type": "standard",
+      "title": "Country_not_supported",
+      "parent": "node_6_1614636923700",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "!$country.isEmpty() || #r_Bot_Control_Start_Over",
+      "dialog_node": "node_3_1614637364075",
+      "previous_sibling": "response_7_1614682103890"
+    },
+    {
+      "type": "standard",
+      "title": "Loop-Check_A",
+      "parent": "node_2_1614808098438",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1614808384726"
+    },
+    {
+      "type": "standard",
+      "title": "Initialization - Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Andrea and I am here to help you navigate through the various events in the Adriatic region. You can ask me about events that take place in Adriatic Area or any possible suggestions. How can I help you?  (Categories: cultural, environment, diet, accessibility)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "month": null,
+        "events": [
+          [
+            [
+              [
+                "Focara di Sant Antonio abate"
+              ],
+              [
+                "Festa di San Valentino"
+              ],
+              [
+                "Table of San Giuseppe"
+              ],
+              [
+                "Este in fiore"
+              ],
+              [],
+              [
+                "FESTA SANTISSIMA TRINITA"
+              ],
+              [
+                "Itria Valley Festival - Martina Franca"
+              ],
+              [
+                "Itria Valley Festival - Martina Franca",
+                "Cavalcade of Saint Oronzo"
+              ],
+              [
+                "Palio di Monselice",
+                "Bertha che filava"
+              ],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "Brindisi - Corfu International Regatta"
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "FESTA DELLA GIUGGIOLA"
+              ],
+              [
+                "Festa dell olio"
+              ],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "Notte dei Desideri"
+              ],
+              [
+                "Notte dei Desideri"
+              ],
+              [
+                "Magic Castle Gradara",
+                "Notte dei Desideri"
+              ],
+              [],
+              [],
+              [
+                "Candele a Candelara"
+              ],
+              [
+                "Candele a Candelara"
+              ]
+            ]
+          ],
+          [
+            [
+              [],
+              [
+                "Carnival of Xanthi"
+              ],
+              [
+                "Carnival of Xanthi"
+              ],
+              [
+                "XANTHI - CITY OF DREAMS",
+                "Youth Festivals"
+              ],
+              [
+                "Youth Festivals"
+              ],
+              [
+                "Youth Festivals"
+              ],
+              [
+                "Dimokriteia"
+              ],
+              [
+                "Dimokriteia",
+                "Dimitris Dafnona - Nestos Festivals Our Festival."
+              ],
+              [
+                "Old Town Holidays"
+              ],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [
+                "Boumpousaria"
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "Boumpousaria"
+              ]
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          [
+            [
+              [
+                "Ulysses Theatre"
+              ],
+              [],
+              [],
+              [],
+              [
+                "Ulysses Theatre"
+              ],
+              [
+                "Istra Inspirit",
+                "Ulysses Theatre"
+              ],
+              [
+                "Istra Inspirit",
+                "Motovun Film Festival",
+                "Ulysses Theatre"
+              ],
+              [
+                "Istra Inspirit",
+                "Motovun Film Festival",
+                "Ulysses Theatre"
+              ],
+              [
+                "Istra Inspirit",
+                "Ex Tempore"
+              ],
+              [],
+              [],
+              [
+                "Istra Inspirit"
+              ]
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "Golden Lion"
+              ],
+              [
+                "Croatia Open Umag"
+              ],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          [
+            [
+              [],
+              [],
+              [],
+              [
+                "Istrski maraton - Istrian Marathon"
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [
+                "Refuscus mundi"
+              ],
+              [],
+              [
+                "Orange Wine Festival  Izola"
+              ],
+              [
+                "Olive, Wine and Fish festival",
+                "Artichoke Fest – Strunjan"
+              ],
+              [
+                "Olive, Wine and Fish festival"
+              ],
+              [
+                "Wine and Garlic Feast"
+              ],
+              [],
+              [
+                "Sweet Istria"
+              ],
+              [],
+              [
+                "Persimmon Fruit Feast – Strunjan"
+              ],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "Sajam suvenira, rukotvorina i zdrave hrane"
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [
+                "Festival of Wine and Bleak",
+                "The Best from Montenegro- fair"
+              ],
+              [
+                "Festival of Wine and Bleak"
+              ],
+              [],
+              [],
+              [
+                "International ham fair",
+                "Traditional Carp Day event"
+              ],
+              [],
+              [],
+              [
+                "SUSRETI POLJOPRIVREDNIKA, VINOGRADARA , VOCARA I PCELARA"
+              ],
+              [],
+              [],
+              [
+                "Festival of Wine and Bleak",
+                "Maslinijada"
+              ]
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ]
+        ],
+        "hotels": [
+          "",
+          "",
+          "www.tripadvisor.com.gr/Hotel_Review-g608962-d662694-Reviews-Hotel_Marina-Izola_Slovenian_Istria_Slovenian_Littoral_Region.html",
+          "https://www.tripadvisor.com.gr/Hotel_Review-g656866-d609928-Reviews-Svoboda_Hotel-Strunjan_Slovenian_Littoral_Region.html",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "months": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ],
+        "country": null,
+        "category": null,
+        "countries": [
+          "Italy",
+          "Greece",
+          "Croatia",
+          "Slovenia",
+          "Montenegro"
+        ],
+        "chosen_months": [],
+        "event_locations": [
+          [
+            "Boumpousaria",
+            "Grevena"
+          ],
+          [
+            "Istrski maraton - Istrian Marathon",
+            "Pristaniška Ulica, Koper"
+          ],
+          [
+            "Olive",
+            "Ljubljanska Ulica 17, Izola"
+          ],
+          [
+            "Artichoke Fest – Strunjan",
+            "Strunjan 28, Portorož"
+          ],
+          [
+            "Persimmon Fruit Feast – Strunjan",
+            "Strunjan 28, Portorož"
+          ],
+          [
+            "Orange Wine Festival  Izola",
+            "Manzioli Square Izola"
+          ],
+          [
+            "Sweet Istria",
+            "10 Verdi Street, Koper"
+          ],
+          [
+            "Refuscus mundi",
+            "Ljubljanska Ulica 17, Izola"
+          ],
+          [
+            "Wine and Garlic Feast",
+            "Nova Vas, Piran"
+          ],
+          [
+            "Carnival of Xanthi",
+            "28th Oktovriou"
+          ],
+          [
+            "Old Town Holidays",
+            "All Old Town"
+          ],
+          [
+            "XANTHI - CITY OF DREAMS",
+            "Xanthi"
+          ],
+          [
+            "Dimokriteia",
+            "Avdira"
+          ],
+          [
+            "Dimitris Dafnona - Nestos Festivals Our Festival.",
+            "Dafnonas"
+          ],
+          [
+            "Youth Festivals",
+            "Different Address."
+          ],
+          [
+            "Istra Inspirit",
+            "County of Istria"
+          ],
+          [
+            "Motovun Film Festival",
+            "Nova Ves 18"
+          ],
+          [
+            "Ex Tempore",
+            "Umberta Gorjana 3, GrožNjan"
+          ],
+          [
+            "Croatia Open Umag",
+            "Istra d.m.c. d.o.o., Jadranska Cesta 66, Umag"
+          ],
+          [
+            "Golden Lion",
+            "Trgovačka 6, Umag"
+          ],
+          [
+            "Ulysses Theatre",
+            "National Park Brijuni"
+          ],
+          [
+            "Magic Castle Gradara",
+            "Gradara Center"
+          ],
+          [
+            "Itria Valley Festival - Martina Franca",
+            "Martina Franca"
+          ],
+          [
+            "Focara di Sant Antonio abate",
+            "Novoli"
+          ],
+          [
+            "Cavalcade of Saint Oronzo",
+            "Ostuno - Piazza Della Libertà"
+          ],
+          [
+            "Table of San Giuseppe",
+            "Erchie"
+          ],
+          [
+            "International ham fair",
+            "Balsica Pazar bb"
+          ],
+          [
+            "Festival of Wine and Bleak",
+            "Virpazar"
+          ],
+          [
+            "Maslinijada",
+            "Stari Bar"
+          ],
+          [
+            "SUSRETI POLJOPRIVREDNIKA, VINOGRADARA , VOCARA I PCELARA",
+            "Virpazar"
+          ],
+          [
+            "Sajam suvenira, rukotvorina i zdrave hrane",
+            "Njegoseva bb"
+          ],
+          [
+            "The Best from Montenegro- fair",
+            "Delta City, Cetinjski Put bb"
+          ],
+          [
+            "Traditional Carp Day event",
+            "Donja Plavnica, 81000 Podgorica"
+          ],
+          [
+            "Brindisi - Corfu International Regatta",
+            "Brindisi -Lungomare Regina Margherita"
+          ],
+          [
+            "Notte dei Desideri",
+            "Bagni 77 Senigallia"
+          ],
+          [
+            "FESTA DELLA GIUGGIOLA",
+            "Arquà Petrarca"
+          ],
+          [
+            "Palio di Monselice",
+            "Monselice"
+          ],
+          [
+            "Festa di San Valentino",
+            "Monselice"
+          ],
+          [
+            "Este in fiore",
+            "Este"
+          ],
+          [
+            "FESTA SANTISSIMA TRINITA",
+            "Arquà Petrarca"
+          ],
+          [
+            "Festa dell olio",
+            "Arquà Petrarca"
+          ],
+          [
+            "Bertha che filava",
+            "Montegrotto Terme"
+          ],
+          [
+            "Candele a Candelara",
+            "Candelara"
+          ]
+        ],
+        "chosen_categories": [],
+        "events_descriptions": [
+          [
+            "Boumpousaria",
+            "On December 23 in SIatista celebrates the Kolianta.Large bonfires are light up thoughout the city and create a unique spectate."
+          ],
+          [
+            "Istrski maraton - Istrian Marathon",
+            "Run with the best sea views. Three distances: marathon (certified), half-marathon (certified), 10 km recreational run. Each year different venue. More than half distance directly by the sea, connecting picturesque old town squares, olive groves, vineyards... Local produce fair. www.istrski-maraton.si"
+          ],
+          [
+            "Olive",
+            "Every year Izola enter the high season with an event, particularly well known among foodies and Mediterranean food lovers. In mid-June, the narrow streets of the old town host local producers. At their stalls, visitors can get a taste or buy homemade wine, olive oil and many other culinary specialties from the Slovene Istria. Be sure not to miss the opportunity to taste the deliciously fresh fish from the Adriatic Sea. This two-day event features a number of small concerts at various venues across town. The Olives, Wine and Fish Festival usually takes place in early June in Izola."
+          ],
+          [
+            "Artichoke Fest – Strunjan",
+            "Strunjan is a small village on the Slovenian coast surrounded by the beautiful Mediterranean natural vegetation protected as a Natural Part.  Artichokes are the local products of the region and they will be offered in many different varieties. You’ll be able to taste some autochthonous dishes from Artichokes specific for this region, enjoy Cynar special liquor from Artichokes and buy products made of this special plant."
+          ],
+          [
+            "Persimmon Fruit Feast – Strunjan",
+            "Strunjan, a settlement on the Slovenian coast is well-known for its special mild microclimate and excellent conditions to grow varieties of sun-loving fruits and vegetables. The Persimmon Fruit Feast is celebrating this beautiful fruit, the land and local culinary and cultural traditions. This food event will be accompanied by art and cultural performances, lectures, and competition for the biggest persimmon of Strunjan."
+          ],
+          [
+            "Orange Wine Festival  Izola",
+            "Winemakers from numerous countries are presenting their macerated white wines. Although orange wines are closing a relatively small gap in the global wine market, they still represent an important part of it since respect for tradition intertwined with advanced wine production insights have proven to satisfy the winemaker as well as the consumer."
+          ],
+          [
+            "Sweet Istria",
+            "Sweet Istria, the international festival of desserts and sweet products, is the largest event of this kind in Slovenia. It is a way of preserving and protecting the art of our ancestors, introducing modern and creative innovations in the confectionery industry and an opportunity to discover the typical sweets of the world. The sweet streets in Koper (on case of bad waeather in the tent on Anton Ukmar Square and in the Taverna) guide the visitors and offer them  a chance to discover, taste and buy sweet products from Slovenian Istria, Slovenia and the world. Participants present a series of sweet products that visitors can taste in return for tasting coupons and buy in larger quantities to take home. Sweet Istria offers the visitors an opportunity to attend various workshops and conferences, enjoy the rich cultural program or participate in many other activities. The technically most important part of the festival are the three sweet contests for the Most original dessert of Istria, Muscat of Sweet Istria and the Best cake of Sweet Istria. The already traditional Ex tempore of Sweet Istria is also part of the festival."
+          ],
+          [
+            "Refuscus mundi",
+            "At the festival, wine producers are presenting their wine made from Refosco vine variety, grown in several wine-growing regions of Slovenia, Italy, and Croatia. The tasting is an opportunity to get familiar with a wide range of wines of various styles, and to get a deeper insight into Refosco during guided tastings and thematic workshops."
+          ],
+          [
+            "Wine and Garlic Feast",
+            "The festival offers plenty of excellent wine, Istrian red garlic and other culinary delicacies. The villagers open their homesteads, showcase old customs and offer their wine, garlic and homemade products. There are culinary workshops, guided tours of the village, church and the bell tower. In the evening, the town organises a typical village feast."
+          ],
+          [
+            "Carnival of Xanthi",
+            "The Thracian Folklore Festivals - Xanthi Carnival already has a 54 year history, during which they offer residents and visitors of beautiful Xanthi unique moments of fun, entertainment and culture. In the mid-1960s some Xanthi people with imagination, disposition and boldness promoted the idea of ​​folk celebrations during the Carnival period. Thus, in 1966, the first Thracian Carnival celebrations were organized in Xanthi.  In their current form the celebration program includes a variety of events that showcase both the history, folklore and culture of the area but also offer many options for entertainment, spree and fun. The highlight of the carnival is the grand carnival parade on the last Carnival Sunday, during which thousands of carnivalists, club members and visitors fill the city center with color and rhythm. After the spectacular parade the big party of clubs will be followed by the custom Burning of Jaros."
+          ],
+          [
+            "Old Town Holidays",
+            "The Old Xanthi celebrations have been an institution for the last years (created in 1991) . The events of the Old Town promote and promote the history , culture , culture , customs and customs of the inhabitants of the wider Thrace region, bringing us memories from other earlier times.  The Old Town events take place in the early days of September , and of course the venue is the Old Town of Xanthi, with its cobblestone streets and imposing mansions, which during the events are sung by rhythm, song and of course smell of chewing gum from the dishes, hovering over the whole of Xanthi. During the celebrations of Old Xanthi there are daily concerts with renowned artists as well as numerous other cultural events (painting, sculpture, wood sculpture, childrens and theater performances etc.), and thousands of people around the world.who flock to participate in events from all over Greece and not only have the opportunity to have fun with them, as well as the dozens of music companies created by the Cultural Associations of Xanthi in their hangouts, in every corner, in the streets of the Old Town. Indeed, the pace that the whole city is living at that time with all the senses in overdrive is something that is unforgettable for every visitor ."
+          ],
+          [
+            "XANTHI - CITY OF DREAMS",
+            "The institution Xanthi City Dreams, a special music and educational event with the participation of students from Music Schools in Greece and abroad."
+          ],
+          [
+            "Dimokriteia",
+            "Democritia Festival of Avdera > from 1982 at the summer months between July and August"
+          ],
+          [
+            "Dimitris Dafnona - Nestos Festivals Our Festival.",
+            "Dimitris Dafnona - Nestos Festivals Our Festival. On the banks of the river Nestos, next to the village of Daphnas in the municipality of Xanthi. Demonstrating our place, morals, customs and traditions."
+          ],
+          [
+            "Youth Festivals",
+            "Youth Festivals, which take place in late Spring, began the same year as the Old Town Festivals and, as their title reveals, are focused on the citys student youth. These celebrations give students the opportunity to be the protagonists of both the stage and the audience. Thus the inhabitants of the city know the activities of the urban space either through the process of creation - production or through the process of participation - consumption."
+          ],
+          [
+            "Istra Inspirit",
+            "Istra Inspirit is a multi-awarded tourism project in Istria that enriches the cultural and tourist offer of the peninsula with the revival of historical events on authentic locations, through staged Istrian legends and myths. The Administrative Department for Tourism of the Region of Istria has promoted the development of the Istra Inspirit project since 2012 in cooperation with the Istrian Tourism Development Agency, IRTA and Istria Tourist Board.  Istra Inspirit is an example of best practice of creative and innovative tourism and underlines the value of existing unused resources of cultural and historical heritage of the region and finds innovative ways of involving different stakeholders in the tourism industry in order to  create tourist packages and new tourism products. Quality, originality, innovation and sustainability are the main characteristics that make this project distinctive and its ‘know-how’ recognizable, the aim of which is to be transferred to the stakeholders and create with them the story of the destination. Furthermore, the goal is to achieve the active networking of all the interested publics in the synergy of the creation of tourism destinations – family farm households, students, local communities, actors, artists and musicians, craftsmen and local tourist boards."
+          ],
+          [
+            "Motovun Film Festival",
+            "It is primarily dedicated to the films from small cinematographies and independent productions; films that excel with their innovative approach, ideas and intense stories; films that have a hard time fighting their way to theaters and wide audiences under the conditions of an unequal market competition.  The idea behind our film program is to reflect diversity – esthetical, thematic, geographical… As many films from as many countries as possible, in order to show that the world of film is much wider and more colorful than it often seems. With its selection of films and guests of honor, the festival celebrates the authors sticking to their artistic stubbornness, unconventionality and originality at all costs. With films and direct communication between filmmakers and film lovers we want to create a cozy spot for those who enjoy the magic of cinema."
+          ],
+          [
+            "Ex Tempore",
+            "The Ex tempore exhibition has been organized by the Italian Union of Rijeka, Italian Community of Groznjan, Public University of Trieste, Municipality of Groznjan and Groznjans Tourist Office. Ex tempore is a cultural event that takes place every year during the last week of September, attracting artists and art lovers from around the world."
+          ],
+          [
+            "Croatia Open Umag",
+            "The rich history of the ATP tournament in Umag has been marked with amazing and often dramatic matches in which top international tennis players lost to far less experienced players. Many won their first titles in Umag, some abandoned matches due to injury or exhaustion, and the finals lasted from a speedy 61 minutes (Thiem and Sousa in 2015) to an exhausting 170 minutes (Verdasco and Andreev in 2008). Umag is known as a town of sports and recreation, and tennis is woven into this story in golden letters. It is a love that has lasted a few decades, one of those that brought Umag the title of European Town of Sport in 2018. The tournament is a great promotion for Istria and Croatia with matches reaching audiences in as many as 100 countries worldwide. The Umag ATP tournament has won numerous awards, including the ATP Award of Excellence. However, the one that best describes the energy of the tournament is the Best Fan Experience award, which confirms exactly what many players and friends of the tournament are constantly emphasizing: its infectious enthusiasm and feel-good atmosphere."
+          ],
+          [
+            "Golden Lion",
+            "Spirit of the chamber theater in Umag was embodied through mr. Antonio Coslovich who has built a hotel called Al Leon d’oro – towards the golden lion in which he had a theatre with about 100 seats. Festival is taking action in the city theater in National open university “Ante Babić” which is located in the centre of Umag and because of its construction and location is allowing us to organize all of the following events that can be visited by a grand amount of visitors.  Over the years festival has become a symbol of quality, not only in Umag but generally in Istra, it attracts more people and persons from public life and it attracts the media. Of course that all is supported by more quality contents, which is always carefully selected and representative festival program, it raises the level of festival."
+          ],
+          [
+            "Ulysses Theatre",
+            "Ulysses Theatre was founded by actor-director Rade Šerbedžija and writer Borislav Vujčić.  It was inaugurated in 2001 by the renowned British film and stage actress Vanessa Redgrave at a charity concert featuring the Mostar Sinfonietta.  The first production was Shakespeare’s King Lear, directed by Lenka Udovički, with Rade Šerbedžija in the eponymous role. A small production team lead by Tatjana Aćimović embarked upon the challenge of giving shape to a dreamlike idea of a theatre on an uninhabited island, unaware of the fact that this production would achieve cult status among the audience and continue to be performed year after year, turning what started as an experiment into an annual summer festival with an increasing number of productions and cultural events. Ulysses intends to continue developing the way it did since its start: driven by the unstoppable passion for good theatre, music and with the aim of gathering talented artists from all over the World."
+          ],
+          [
+            "Magic Castle Gradara",
+            "Imagine a castle suspended in time and space, where immense dragons, bright fairies and a thousand other fantastic characters meet every year in a big party.  It is an invasion of emotions, a riot of colors, sounds, music and perfumes.  It is the place of smile, wonder, imagination.  It is the place where all joy is possible:"
+          ],
+          [
+            "Itria Valley Festival - Martina Franca",
+            "It is the true cultural engine of the Itria Valley. The Festival was born 46 years ago thanks to the happy intuition of Paolo Grassi, whose homonymous Foundation is counted among the schools of national excellence in the context of the highest musical education; provides for the promotion of young artists and the rediscovery of unpublished or forgotten works from the Belcanto repertoire; it produces culture through entertainment and satisfies the needs of an increasingly involved public, determining important economic repercussions on the territory."
+          ],
+          [
+            "Focara di SantAntonio abate",
+            "It is believed to be the largest bonfire in the Mediterranean, linked to patronal celebrations in honor of Saint Anthony the Abbot. The moment of lighting the fire is only the conclusive phase of a long activity that also involves neighbouring communities. The scraps from the vine pruning are collected in bundles and arranged by chains of men, resting on ladders. Popular devotion becomes a shared feeling that contaminates everyone and attracts devotees, pilgrims and tourists."
+          ],
+          [
+            "Cavalcade of SaintOronzo",
+            "The ride, with centuries-old origins, is linked to the feast most awaited by the community which on 25, 26 and 27 August pays homage to Saint Oronzo who, according to tradition, protected Ostuni from the plague of 1656; a procession of horses and riders, with the traditional harness, parades through the city streets escorting the patron. In those days, the white city wears \\red\\ and offers a spectacle of incomparable beauty, which attracts devotees, pilgrims and many tourists."
+          ],
+          [
+            "Table of San Giuseppe",
+            "The convivial ritual characterizes the feast of San Giuseppe, celebrated in Salento by the famous tables, called mattre in the province of Brindisi. In Erchie, the event is also enriched by a bonfire, made with the waste material from the pruning of olive trees. Symbolic expression of a vow or a grace received, the \\plates\\ represent a very close but still alive link between territory and faith, local productions and religiosity."
+          ],
+          [
+            "International ham fair",
+            "The first International ham fair will be organized in Cetinje June, 5-6. 2020. The host of the first International Prosciutto Fair, sponsored by the Royal Capital, will be organized by the Touristic Organization Cetinje and the Montenegrin Prosciutto Cluster. Cetinje and the regioan is welll know by the ham producers, known out of Montenegro for its great quality and taste. The annual production amount is over 400.000 hams from the Cetinje municipality and close surroundings. That is why the fiar wants to show everyone in Montenegro, and wider how this authentic product is tasted, and why it is widely recognized. Both Tourism Organization of Cetinje and Montenegrin Prosciutto cluster are brand holders of QNeST project, and both are willing to present them as good host , share their experiene and search for new cooperation in Adrion region."
+          ],
+          [
+            "Festival of Wine and Bleak",
+            "The traditional event lasting more than 2 decades. All festival guests will enjoy a rich cultural and entertainment program, as well as home-made wine tasting from the Crmnitsa region (Crmničko vino) and fried fish - bleak, which is caught only on Skadar Lake. Also, guests of the festival will be able to try various homemade organic foods, fish soup and other dishes made from fish. Also, guest can taste and buy wine, brandy, honey, fruit and vegetables, cheese...everyone needs to taste this wine and unique fish from skadar lake."
+          ],
+          [
+            "Maslinijada",
+            "Maslinijada is tradional event that gathers olive producers, wine producers, fruit producers and other tradiotional products from this region of Bar, Skadar lake and suroundings. The event is enriched by cultural program, having traditional clothes people serving their products."
+          ],
+          [
+            "SUSRETI POLJOPRIVREDNIKA, VINOGRADARA , VOCARA I PCELARA",
+            "Traditional event of joining wine producers, bee keepers, and fruit producers. The aim of the event is to promote tradiotional and local products from Skadar lake and municipality Bar."
+          ],
+          [
+            "Sajam suvenira, rukotvorina i zdrave hrane",
+            "Coordinated by Touristic organization Cetinje, traditional Fair of souvenirs, craft and health food is organized in June. The aim is to promote local products and food that one cannot buy in supermarkets. Unique chance in Royal Capital!"
+          ],
+          [
+            "The Best from Montenegro- fair",
+            "The traditional agricultural manifestation Best from Montenegro fair brings together manufacturers from all over Montenegro ( producers of wines, olives and olive oil, honey, prosciutto, fruits and vegetables, medicinal herbs, organic products) in the spot and is an ideal opportunity to point out in a mutual communication the problems encountered in the production and distribution of their products."
+          ],
+          [
+            "Traditional Carp Day event",
+            "The traditional Carp Day event is taking place each year on the beginning of the June in small place Plavnica, near Podgorica and Skadar lake. Visitors  are able to taste a variety of carp dishes and other specialties specific to the region, and a free condo ride is organised as an indigenous means of transportation.The event is organized with the aim of highlighting the cultural, environmental and traditional values, as well as the tourist potential of Lake Skadar, as well as announcing the start of the summer tourist seasonThe event is organized by the Tourist Organization of Podgorica, Municipality of Golubovci and NP Skadar Lake."
+          ],
+          [
+            "Brindisi - Corfu International Regatta",
+            "Born quietly in 1986, today it is one of the most important international events, also the result of constant collaboration between the two shores of the sea. With a participation that exceeds 100 boats, the regatta is now among the most important in the Mediterranean and is the most important offshore regatta in the Adriatic, both in terms of number of participants and technical difficulties."
+          ],
+          [
+            "Notte dei Desideri",
+            "For the second edition of La Notte dei Deisderi, a regional event that wants to celebrate the beauty of our region, # Bagni77Senigallia organize a candlelit dinner IN BATTIGIA and re-propose the traditional menu much appreciated in the previous edition, whose ingredients they come exclusively from the Marche farms. In addition, we have some other surprises to cheer up the dinner ... UNFORGETTABLE!"
+          ],
+          [
+            "FESTA DELLA GIUGGIOLA",
+            "The Jujube Festival is a well-known event on the Euganean Hills and throughout the province of Padua; in recent years the fame of Arquà Petrarca and his festival has also exceeded regional borders. The most attractive aspect of this party is undoubtedly the food and wine: on holidays it is possible to taste the numerous jujube-based products and learn about the most unusual and delicious combinations that can be experienced in the kitchen. The most sought after product by tourists arriving in Arquà Petrarca is undoubtedly the renowned \\jujube broth\\, whose artisan recipe is exclusive to the small village. Walking through the enchanting medieval streets, you can find jujube plants everywhere; even in the pretty garden of the house inhabited by Francesco Petrarca at the end of the 14th century there are some trees and who knows, perhaps even the Supreme Poet delighted with the fruits and the delicious liqueur during the last peaceful years of his life spent in Arquà. The typical food shops and restaurants in the area offer the opportunity to taste and buy the \\jujube broth\\ produced in Arquà Petrarca at all times of the year; in any season you visit the location it is therefore possible to taste and buy this unmissable delicacy."
+          ],
+          [
+            "Palio di Monselice",
+            "From 1 to 15 September, every weekend, Monselice commemorates the passage of Emperor Frederick II of Swabia in 1239 with events and shows. The nine districts, after a whole year of preparations, compete in spectacular and exciting races to conquer victory and the coveted prize."
+          ],
+          [
+            "Festa di San Valentino",
+            "Historic procession to the relics of San Valentino in the oratory of San Giorgio with delivery of golden keys"
+          ],
+          [
+            "Este in fiore",
+            "Flower nursery festival with villa openings and guided tours"
+          ],
+          [
+            "FESTA SANTISSIMA TRINITA",
+            "procession with confraternities along the streets of the town"
+          ],
+          [
+            "Festa dellolio",
+            "sale of typical and artisan products to celebrate this moment of oil production"
+          ],
+          [
+            "Bertha che filava",
+            "Historical parade and collateral activities to remember the legend of Bertha"
+          ],
+          [
+            "Candele a Candelara",
+            "Sedicesima edizione della prima e unica festa italiana dedicata alle fiammelle di cera che si svolgerà nell’antico Borgo medievale dal 23 novembre al 15 dicembre 2019. Con due spegnimenti della luce elettrica, il paese sarà rischiarato dalla sola luce delle candele (17:30 e 18:30). Otto giorni tra mercatini natalizi, presepi, spettacoli, il Villaggio e la Officina di Babbo Natale, artisti di strada e tante altre attrattive. Tanta gastronomia della tradizione per una vacanza ricca di emozioni"
+          ]
+        ],
+        "events_descriptions_names": [
+          "Boumpousaria",
+          "Istrski maraton - Istrian Marathon",
+          "Olive",
+          "Artichoke Fest – Strunjan",
+          "Persimmon Fruit Feast – Strunjan",
+          "Orange Wine Festival  Izola",
+          "Sweet Istria",
+          "Refuscus mundi",
+          "Wine and Garlic Feast",
+          "Carnival of Xanthi",
+          "Old Town Holidays",
+          "XANTHI - CITY OF DREAMS",
+          "Dimokriteia",
+          "Dimitris Dafnona - Nestos Festivals Our Festival.",
+          "Youth Festivals",
+          "Istra Inspirit",
+          "Motovun Film Festival",
+          "Ex Tempore",
+          "Croatia Open Umag",
+          "Golden Lion",
+          "Ulysses Theatre",
+          "Magic Castle Gradara",
+          "Itria Valley Festival - Martina Franca",
+          "Focara di SantAntonio abate",
+          "Cavalcade of SaintOronzo",
+          "Table of San Giuseppe",
+          "International ham fair",
+          "Festival of Wine and Bleak",
+          "Maslinijada",
+          "SUSRETI POLJOPRIVREDNIKA, VINOGRADARA , VOCARA I PCELARA",
+          "Sajam suvenira, rukotvorina i zdrave hrane",
+          "The Best from Montenegro- fair",
+          "Traditional Carp Day event",
+          "Brindisi - Corfu International Regatta",
+          "Notte dei Desideri",
+          "FESTA DELLA GIUGGIOLA",
+          "Palio di Monselice",
+          "Festa di San Valentino",
+          "Este in fiore",
+          "FESTA SANTISSIMA TRINITA",
+          "Festa dellolio",
+          "Bertha che filava",
+          "Candele a Candelara"
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1590831979191"
+    },
+    {
+      "type": "folder",
+      "title": "ChiChat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1590833102277",
+      "previous_sibling": "node_7_1614639888249"
+    },
+    {
+      "type": "standard",
+      "title": "Restart",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Restarting bot..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1590831979191"
+      },
+      "conditions": "#r_Bot_Control_Start_Over",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1590916818706",
+      "previous_sibling": "node_4_1590833102277"
+    },
+    {
+      "type": "frame",
+      "title": "Recommendations_catch",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "country": "$country",
+        "chosen_months": "<? $chosen_months.append($month) ?>",
+        "chosen_categories": "<? $chosen_categories.append($category) ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1614637364075"
+      },
+      "conditions": "#r_recommendation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1614636923700",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1590831979191"
+    },
+    {
+      "type": "standard",
+      "title": "Results Show",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "number_categories": 0
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614808098438"
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1614683568451",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "frame",
+      "title": "Country_Fill",
+      "parent": "node_3_1614637364075",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1614683568451"
+      },
+      "conditions": "@countries || #r_Bot_Control_Start_Over",
+      "dialog_node": "node_7_1614639495819"
+    },
+    {
+      "type": "standard",
+      "title": "Event_Information",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "event": "@events"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1614640536399"
+      },
+      "conditions": "#r_event_info",
+      "dialog_node": "node_7_1614639888249",
+      "previous_sibling": "node_6_1614636923700"
+    },
+    {
+      "type": "standard",
+      "title": "Result Creation",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1614840344887",
+      "previous_sibling": "node_2_1614808098438"
+    },
+    {
+      "type": "standard",
+      "title": "Result Creation Loop",
+      "parent": "node_7_1614840344887",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1614840529809",
+      "previous_sibling": "response_8_1614841392121"
+    },
+    {
+      "type": "standard",
+      "title": "Thanking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "Not at all."
+              },
+              {
+                "text": "Not a problem"
+              },
+              {
+                "text": "Glad to help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590833102277",
+      "conditions": "#r_thanking",
+      "dialog_node": "node_8_1590834227112",
+      "previous_sibling": "node_10_1590834116886"
+    },
+    {
+      "type": "standard",
+      "title": "Adriatic Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Adriatic Sea is a body of water separating the Italian Peninsula from the Balkans. The Adriatic is the northernmost arm of the Mediterranean Sea, extending from the Strait of Otranto (where it connects to the Ionian Sea) to the northwest and the Po Valley. Our service supports info about Italy, Greece, Croatia, Slovenia and Montenegro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590833102277",
+      "conditions": "#r_adriatic_info || #r_supported_countries",
+      "dialog_node": "node_8_1614636308982",
+      "previous_sibling": "node_10_1614636167260"
+    },
+    {
+      "type": "standard",
+      "title": "Joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I know a good one! There were three tomatoes, a mom, a dad and a son. The son lagged behind and fell splat on the floor. His dad yelled to him, “Ketchup, son”."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590833102277",
+      "conditions": "#r_jokes",
+      "dialog_node": "node_9_1590891197731",
+      "previous_sibling": "node_8_1614636308982"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice, choice I love $country"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614637364075",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1614683568451"
+      },
+      "conditions": "true",
+      "dialog_node": "response_10_1614638916080",
+      "previous_sibling": "response_5_1614638884479"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1614840344887",
+      "context": {
+        "result": "<? $result + $events.get($countries.indexOf($country))[$number_categories.toInt()][$result_counter][0] + \"-\" + $months[$result_counter] + \", \"?>"
+      },
+      "conditions": "$res_size > 0",
+      "dialog_node": "response_10_1614841325433"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614636923700",
+      "context": {
+        "event": "@events",
+        "country": "@countries",
+        "chosen_months": "<? $chosen_months.append(@months.values) ?>",
+        "chosen_categories": "<? $chosen_categories.append(@categories.values) ?>"
+      },
+      "disabled": true,
+      "dialog_node": "response_1_1614682090867",
+      "previous_sibling": "slot_5_1614806231438"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614636923700",
+      "disabled": true,
+      "dialog_node": "response_1_1614682101980",
+      "previous_sibling": "response_8_1614682100268"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice choice I love $country"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614639495819",
+      "conditions": "true",
+      "dialog_node": "response_1_1614765619131",
+      "previous_sibling": "response_4_1614765581301"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$event takes place in $location. I also know that $description"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614640536399",
+      "context": {
+        "location": "<? $event_locations.get($events_descriptions_names.indexOf($event))[1] ?>",
+        "description": "<? $events_descriptions.get($events_descriptions_names.indexOf($event))[1] ?>"
+      },
+      "conditions": "$events_descriptions_names.containsIgnoreCase( $event)",
+      "dialog_node": "response_2_1614640614728"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Restarting..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614637364075",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1590831979191"
+      },
+      "conditions": "#r_Bot_Control_Start_Over",
+      "dialog_node": "response_2_1614765999415",
+      "previous_sibling": "node_7_1614639495819"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1614808384726",
+      "context": {
+        "number_categories": "<? $number_categories+1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614808098438"
+      },
+      "conditions": "$number_categories <  $chosen_categories.size() - 1",
+      "dialog_node": "response_2_1614809246455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I found the following events: $result"
+              },
+              {
+                "text": "Well I got the following events: $result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614840529809",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1614808384726"
+      },
+      "conditions": "true",
+      "dialog_node": "response_2_1614840626398",
+      "previous_sibling": "response_3_1614840555035"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Restarting..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614639495819",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1590831979191"
+      },
+      "conditions": "#r_Bot_Control_Start_Over",
+      "dialog_node": "response_3_1614765926942",
+      "previous_sibling": "slot_8_1614765763378"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1614840529809",
+      "context": {
+        "res_size": "<? $events.get($countries.indexOf($country))[$number_categories.toInt()][$result_counter+1].size()?>",
+        "result_counter": "<? $result_counter + 1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1614840344887"
+      },
+      "conditions": "$result_counter <  $size -1",
+      "dialog_node": "response_3_1614840555035"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1614639495819",
+      "context": {
+        "country": "@countries"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1614637364075"
+      },
+      "conditions": "!$countries.containsIgnoreCase( $country)",
+      "dialog_node": "response_4_1614765581301",
+      "previous_sibling": "response_3_1614765926942"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you need any information about the events, just ask me!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "If you already know your destination, I can find a place to stay near the location of the event  (_Just_for_future_update_)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614808384726",
+      "conditions": "true",
+      "dialog_node": "response_4_1614809289999",
+      "previous_sibling": "response_2_1614809246455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$country is not supported, Please choose one of the supported Countries: Italy, Greece, Croatia, Slovenia, Montenegro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614637364075",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1614639495819"
+      },
+      "conditions": "!$countries.containsIgnoreCase( $country)",
+      "dialog_node": "response_5_1614638884479",
+      "previous_sibling": "response_2_1614765999415"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This event is not supported."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614640536399",
+      "conditions": "true",
+      "dialog_node": "response_6_1614640569377",
+      "previous_sibling": "response_2_1614640614728"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614636923700",
+      "disabled": true,
+      "dialog_node": "response_7_1614682103890",
+      "previous_sibling": "response_1_1614682101980"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614636923700",
+      "disabled": true,
+      "dialog_node": "response_8_1614682100268",
+      "previous_sibling": "response_1_1614682090867"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1614840344887",
+      "context": {},
+      "conditions": "$res_size <= 0",
+      "dialog_node": "response_8_1614841392121",
+      "previous_sibling": "response_10_1614841325433"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1614636923700",
+      "variable": "$country",
+      "dialog_node": "slot_3_1614683455717",
+      "previous_sibling": "handler_1_1614804320883"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1614636923700",
+      "variable": "$category",
+      "dialog_node": "slot_4_1614806093884",
+      "previous_sibling": "slot_3_1614683455717"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1614636923700",
+      "variable": "$month",
+      "dialog_node": "slot_5_1614806231438",
+      "previous_sibling": "slot_4_1614806093884"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1614639495819",
+      "variable": "$country",
+      "dialog_node": "slot_8_1614765763378"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Andrea: Remaster",
+  "language": "en",
+  "description": ""
+}
