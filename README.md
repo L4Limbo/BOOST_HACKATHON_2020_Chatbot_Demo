@@ -1,5 +1,5 @@
 # BOOST_HACKATHON_2020_Chatbot_Demo
-A chatbot demo for tourist events created by IBM Watson Assistant (Lite Plan) for BOOST Hackathon 30-31-05-2020 [1st place].
+A chatbot demo for tourist events created by IBM Watson Assistant (Lite Plan) for BOOST Hackathon 30-31/05/2020 [1st place].
 
 # Contributors
 * Mitakidis Anestis, Undergrad Student of ECE at the University of Patras. : https://github.com/L4Limbo
