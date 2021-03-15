@@ -12,6 +12,8 @@ Our team, Bosons, won first place by creating the chatbot Andrea. The data used 
 # Translation & Messenger Connection
 Translation [English to Greek] was developed with IBM Language Translator and implemented with Node-Red. The nodes used appear in https://github.com/L4Limbo/BOOST_HACKATHON_2020_Chatbot_Demo/blob/main/gr_translation_messenger%5BNODE_RED%5D.jpg .
 
+# How to use it
+
 # Contact
 * anestis2799@gmail.com
 
