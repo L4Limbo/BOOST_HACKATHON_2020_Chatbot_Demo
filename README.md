@@ -5,6 +5,8 @@ Boost hackathon, which took place from 25/05/2020 to 31/05/2020, was a hackathon
 Our team, Bosons, won first place by creating the chatbot Andrea. The data used were from http://www.qnest.eu/ and were about events in the region of Andriatic sea. The chatbot, by the information provided from the user, suggests a suitable event. 
 
 # How to use it
+## Bot Skills
+
 ## Translation & Messenger Connection
 Translation [English to Greek] was developed with IBM Language Translator and implemented with Node-Red. The nodes used appear in https://github.com/L4Limbo/BOOST_HACKATHON_2020_Chatbot_Demo/blob/main/gr_translation_messenger%5BNODE_RED%5D.jpg .
 
